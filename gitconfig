@@ -1,0 +1,9 @@
+[user]
+	name = Sascha Wessel
+	email = swessel@gr4yweb.de
+[github]
+	user = gr4y
+
+it = commit -m "$(fortune -s -o)"
+[core]
+	editor = subl -w
