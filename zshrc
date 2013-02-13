@@ -50,3 +50,6 @@ alias m="mosh"
 # chruby
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
+
+# choose default ruby
+chruby ruby-1.9.3
