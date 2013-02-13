@@ -32,14 +32,17 @@ DISABLE_AUTO_TITLE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git textmate rails ruby sublime)
+plugins=(git textmate rails rails sublime)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 
-# RVM 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=$PATH:$HOME/bin # Add ~/bin to PATH 
+# Android SDK
+PATH=$PATH:$HOME/bin/android-sdk-macosx/platform-tools
+PATH=$PATH:$HOME/bin/android-sdk-macosx/platform
+PATH=$PATH:$HOME/bin/android-sdk-macosx/tools
 
+# mosh
+alias m="mosh"
