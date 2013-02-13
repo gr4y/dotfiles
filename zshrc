@@ -44,5 +44,9 @@ PATH=$PATH:$HOME/bin/android-sdk-macosx/platform-tools
 PATH=$PATH:$HOME/bin/android-sdk-macosx/platform
 PATH=$PATH:$HOME/bin/android-sdk-macosx/tools
 
+# chruby
+source /usr/local/share/chruby/chruby.sh
+
+
 # mosh
 alias m="mosh"
