@@ -13,6 +13,7 @@ export EDITOR='st -w'
 # Example aliases
 alias zshconfig="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
+alias todo.txt="$EDITOR ~/Dropbox/todo/todo.txt"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -43,6 +44,11 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 PATH=$PATH:$HOME/bin/android-sdk-macosx/platform-tools
 PATH=$PATH:$HOME/bin/android-sdk-macosx/platform
 PATH=$PATH:$HOME/bin/android-sdk-macosx/tools
+
+# ruby-build
+CFLAGS="-g -O2"
+CONFIGURE_OPTS="--enable-shared --disable-install-doc --with-opt-dir=/usr/local/lib --with-openssl-dir=`brew --prefix openssl` --with-readline-dir=`brew --prefix readline`"
+RUBY_BUILD_CACHE_PATH="~/.ruby-build/cache"
 
 # mosh
 alias m="mosh"
