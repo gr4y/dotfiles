@@ -1,1 +1,20 @@
-/Users/saschawessel/.gitconfig
+[user]
+	name = gr4y
+	email = swessel@gr4yweb.de
+[github]
+	user = gr4y
+
+[alias]
+st = status
+it = commit -m "$(fortune -s -o)"
+undo = reset --soft HEAD^
+
+[core]
+	editor = subl -w
+	excludesfile = /Users/saschawessel/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
