@@ -57,6 +57,9 @@ RUBYOPTS="-E utf-8"
 # mosh
 alias m="mosh"
 
+# git
+alias g="git"
+
 # chruby
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
