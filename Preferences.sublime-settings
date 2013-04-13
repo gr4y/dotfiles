@@ -1,0 +1,25 @@
+{
+	"auto_indent": true,
+	"color_scheme": "Packages/Color Scheme - carlcalderon/Tyrann/Tyrann Alex.tmTheme",
+	"default_encoding": "UTF-8",
+	"detect_indentation": true,
+	"draw_white_space": "all",
+	"folder_exclude_patterns":
+	[
+		".sass-cache",
+		".yardoc",
+		".git",
+		".rvmrc"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 13.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"shift_tab_unindent": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
+}
